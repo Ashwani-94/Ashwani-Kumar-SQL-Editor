@@ -1,0 +1,12 @@
+.home{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: calc(100vh - 46px);
+    background-color: var(--bg1);
+}
+.left_section{
+    border-right: 1px solid var(--border1);
+}
+.home div{
+    /* padding: 20px; */
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --bg1: #1f2023;
+    --bg2: #1b1d22;
+    --txtcol1: #fff;
+    --border1: #ffffff20;
+}
+
+body{
+    color: var(--txtcol1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+
+}
