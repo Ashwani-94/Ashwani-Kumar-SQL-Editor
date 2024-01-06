@@ -2,9 +2,12 @@
 
 :root {
     --bg1: #1f2023;
-    --bg2: #1b1d22;
+    --bg2: #1f2023;
+    --bg3: #232323;
     --txtcol1: #fff;
-    --border1: #ffffff20;
+    --border1: #ffffff2f;
+    --hovered1:rgba(255, 255, 255, 0.082);
+    --blue1: #0556f3;
 }
 
 body{
@@ -14,5 +17,14 @@ body{
 
 *{
     box-sizing: border-box;
+}
 
+.hovered{
+    transition: 2ms;
+}
+.hovered:hover{
+    filter: brightness(90%);
+}
+.hovered:active{
+    filter: brightness(85%);
 }

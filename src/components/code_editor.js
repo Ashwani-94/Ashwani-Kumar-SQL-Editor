@@ -19,9 +19,15 @@ const CodeEditor = () => {
 
     return (
         <div>
-            {/* <div>
-                run
-            </div> */}
+            <div className='code_header'>
+                <button className='code_run hovered' >Run SQL</button>
+                <div className='query_btns_div'>
+                    <button className='query_btn hovered'>Query 1</button>
+                    <button className='query_btn hovered'>Query 2</button>
+                    <button className='query_btn hovered'>Query 3</button>
+                    <button className='query_btn hovered'>Query 4</button>
+                </div>
+            </div>
             {
                 loading &&
                 <AceEditor
@@ -31,7 +37,7 @@ const CodeEditor = () => {
                         backgroundColor:"#272c39",
                         color:"#fff",
                         width:"100%",
-                        height:"calc(100vh - 46px)"
+                        height:"calc(100vh - 46px - 37px)",
                     }}
                     fontSize={14}
                     showPrintMargin={true}

@@ -1,3 +1,32 @@
-.code_editor{
-    
+.code_header{
+    background-color: var(--bg3);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 7.2px 6px;
+    border-bottom: 0.5px solid var(--hovered1);
+    justify-content: space-between;
+}
+.code_run{
+    cursor: pointer;
+    outline: none;
+    background-color: var(--blue1);
+    border: none;
+    color: var(--txtcolor1);
+    padding: 3px 8px;
+    border-radius: 2px;
+    transition: 2ms;
+}
+.query_btn{
+    cursor: pointer;
+    outline: none;
+    background-color: var(--border1);
+    border: none;
+    color: var(--txtcolor1);
+    padding: 3px 8px;
+    border-radius: 2px;
+    margin-right: 12px;
+}
+.query_btns_div{
+    display: flex;
+    align-items: center;
 }

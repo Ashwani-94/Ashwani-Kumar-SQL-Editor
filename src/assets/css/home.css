@@ -7,6 +7,8 @@
 .left_section{
     border-right: 1px solid var(--border1);
 }
-.home div{
-    /* padding: 20px; */
+.right_section{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
 }
