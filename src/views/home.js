@@ -1,19 +1,20 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import DefaultLayout from '../layouts/defaultLayout'
-import '../assets/css/home.css'
-import CodeEditor from '../components/code_editor';
+import CodeEditor from '../components/codeEditor';
 import Table from '../components/table';
 
 const Home = () => {
 
+    const [query, setQuery] = useState(1);
+    
     return (
         <DefaultLayout>
             <div className='home'>
                 <div className='left_section'>
-                    <CodeEditor />
+                    <CodeEditor query={query} setQuery={setQuery} />
                 </div>
                 <div className='right_section'>
-                    <Table />
+                    <Table query={query} setQuery={setQuery} />
                 </div>
             </div>
         </DefaultLayout>

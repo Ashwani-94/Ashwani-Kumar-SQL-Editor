@@ -26,6 +26,12 @@
     padding: 4px 18px;
     font-size: 14px;
 }
+@media screen and (max-width:700px) {
+    .table_data{
+        padding: 4px 16px;
+        font-size: 13px;
+    }
+}
 .table_row{
     transition: 3ms background-color;
 }
@@ -48,4 +54,16 @@
 }
 .right_section_div::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+.table_export{
+    display: flex;
+    align-items: center;
+}
+.table_export img{
+    filter: invert(1);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    margin: -2 0;
+    margin-right: 10px;
 }

@@ -1,11 +1,10 @@
-import React, { useEffect } from 'react'
-import '../assets/css/navbar.css'
+import React from 'react'
 
 const Navbar = () => {
 
     return (
         <nav className='navbar'>
-            SQL Code Editor
+            SQL Code Editor - Ashwani Kumar
         </nav>
     );
 }

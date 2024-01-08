@@ -1,4 +1,11 @@
+/* importing font families */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* importing other css files */
+@import "home.css";
+@import "table.css";
+@import "navbar.css";
+@import "codeEditor.css";
 
 :root {
     --bg1: #1f2023;
@@ -6,8 +13,11 @@
     --bg3: #232323;
     --txtcol1: #fff;
     --border1: #ffffff2f;
-    --hovered1:rgba(255, 255, 255, 0.082);
+    --hovered1: rgba(255, 255, 255, 0.082);
+    --hovered2: rgba(255, 255, 255, 0.072);
     --blue1: #0556f3;
+    --transparent_black1: #0000001a;
+    --transparent_black2: #0000000a;
 }
 
 body{
@@ -19,7 +29,7 @@ body{
     box-sizing: border-box;
 }
 
-.hovered{
+.hovered,.hovered2{
     transition: 2ms;
 }
 .hovered:hover{
@@ -27,4 +37,10 @@ body{
 }
 .hovered:active{
     filter: brightness(85%);
+}
+.hovered2:hover{
+    background-color: var(--transparent_black1);
+}
+.hovered2:active{
+    background-color: var(--transparent_black2);
 }
