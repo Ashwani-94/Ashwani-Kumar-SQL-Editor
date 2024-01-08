@@ -23,6 +23,7 @@
 body{
     color: var(--txtcol1);
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg1);
 }
 
 *{
